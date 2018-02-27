@@ -27,12 +27,11 @@ int main() {
 	imshow("Noisy", noisy);
 	imwrite("D:\\images\\task2\\02-noisy.png", noisy);
 
-	/*
 	// mean filter
 	Mat mean;
 	meanFilter(noisy, mean, 3);
 	imshow("Mean - 3x3", mean);
-	*/
+	imwrite("D:\\images\\task2\\03-mean.png", mean);
 
 	// median filter
 	Mat median;
